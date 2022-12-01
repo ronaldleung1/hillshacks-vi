@@ -1,0 +1,22 @@
+{
+  "name": "@googol88/hillshacks-v",
+  "version": "0.0.1",
+  "author": "googol88",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^12.3.1",
+    "next": "^12.3.1",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.10",
+    "theme-ui": "^0.12.1"
+  }
+}
