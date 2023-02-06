@@ -19,7 +19,7 @@ const Hero = props => (
   >
     <Container as="section" py={5} variant="copy" sx={{position: 'relative'}} {...props}>
       <Image
-        src="/logo-v.png"
+        src="/logo.png"
         alt="hillsHacks Logo"
         width={500}
         sx={{
@@ -27,11 +27,11 @@ const Hero = props => (
           WebkitUserDrag: 'none',
         }}
       />
-      <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}><b>Reaching New Heights</b></Heading>
-      <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}>May 14th, 2022 • 11AM - 4PM</Heading>
+      <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}><b>Exploring New Frontiers</b></Heading>
+      <Heading my={2} variant="subtitle" color="white" sx={{textShadow: "0 0 32px #000"}}>March 18th, 2023 • 10:30AM - 4PM</Heading>
       <Text mt={2} mb={4} sx={{display: "block", textShadow: "0 0 32px #000"}} color="white">In-Person, Watchung Hills Regional High School</Text>
       <Button variant="lg" as="a" target="_blank" my={2}
-    href="https://docs.google.com/forms/d/e/1FAIpQLSegUrlZpgpFQKBUR2205PvMVdK48YQtGJ9tdkPqO2N6Avs9ZQ/viewform?usp=sf_link">Register Now!</Button>
+    href="https://docs.google.com/forms/d/e/1FAIpQLScZpZUwiVDpW6rPrNIxmSDv2_IV8pDRyo_EdRKg3zxHLtcGNQ/viewform?usp=sf_link">Pre-Register Now!</Button>
     </Container>
   </Box> 
 )
