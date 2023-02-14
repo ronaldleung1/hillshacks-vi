@@ -13,7 +13,6 @@ import {
   Card,
   Flex,
   Link,
-  Alert,
   useColorMode
 } from 'theme-ui'
 
@@ -27,13 +26,7 @@ const Index = props => (
   <>
     <Nav />
     <Hero />
-    <Container as="section" mt={4} variant="copy" {...props}>
-      <Alert p={3} sx={{display: "flex"}}>
-        <Text mr={3}>📢</Text>
-        <Text sx={{flexGrow: 1}}>Full registrations are now open using the link above! Spots are limited, so sign up now!</Text>
-      </Alert>
-    </Container>
-    <Container as="section" variant="copy" {...props}></Container>
+    <Container as="section" mt={4} variant="copy" {...props}></Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{ fontSize: '40px' }}>
         This is not your typical hackathon.
@@ -57,8 +50,8 @@ const Index = props => (
       </Text>
       <Text variant="lead">
         <b>
-          This is the fifth iteration of hillsHacks, Watchung Hills' premier
-          hackathon open to students grades 6 through 12.
+          This is the sixth iteration of hillsHacks, Watchung Hills' premier
+          hackathon open to students grades 7 through 12.
         </b>
       </Text>
       <br />
@@ -102,9 +95,9 @@ const Index = props => (
       <Card>
         <Heading variant="headline" sx={{fontSize: "40px"}}>Details</Heading>
         <Text as="p"><b>Where:</b> <Link href="https://goo.gl/maps/se4i7cSCAxGcRvYHA" target="_blank">Watchung Hills Regional High School</Link> (108 Stirling Rd, Warren, NJ 07059)</Text><br/>
-        <Text as="p"><b>When:</b> May 14th, 2022 from 11:00AM-4:00PM</Text><br/>
+        <Text as="p"><b>When:</b> March 18th, 2023 from 10:30AM-4:00PM</Text><br/>
         <Text as="p"><b>Cost:</b> There will be an entry fee of $10 to cover costs for food and T-shirts for all attendees!</Text><br/>
-        <Text as="p"><b>Who:</b> All middle and high school students are welcome to attend, regardless of experience!</Text>
+        <Text as="p"><b>Who:</b> All students in grades 7-12 are welcome to attend, regardless of experience!</Text>
       </Card>
     </Container>
     <Container id="faq" as="section" py={4} {...props}>
@@ -123,16 +116,7 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Schedule
       </Heading>
-      <Image 
-            src="/schedule.png"
-            sx={{
-              width: '100%',
-              maxWidth: '720px',
-              userDrag: 'none',
-              WebkitUserDrag: 'none',
-              boxShadow: 'elevated',
-            }}
-      />
+      <Text>Coming soon!</Text>
     </Container>
     <Container
       id="Sponsors"
@@ -144,31 +128,7 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Sponsors
       </Heading>
-      <a href="https://www.mongodb.com/" target="_blank">
-        <Image 
-            src="/mongoLogo.png"
-            sx={{
-              width: '100%',
-              maxWidth: '720px',
-              userDrag: 'none',
-              WebkitUserDrag: 'none',
-              cursor: 'pointer',
-            }}
-          />
-      </a>
-      <br></br><br></br>
-      <a href="https://replit.com/" target="_blank">
-        <Image 
-          src={useColorMode()[0] === 'default' ? '/replit-light.png': '/replit-dark.png'}
-          sx={{
-            width: '100%',
-            maxWidth: '360px',
-            userDrag: 'none',
-            WebkitUserDrag: 'none',
-            cursor: 'pointer',
-          }}
-        />
-      </a>
+      <Text>Coming soon!</Text>
     </Container>
     <Container as="section" py={4} {...props}>
       <Card>
@@ -187,9 +147,9 @@ const Index = props => (
               as="a"
               target="_blank"
               mr={4}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSegUrlZpgpFQKBUR2205PvMVdK48YQtGJ9tdkPqO2N6Avs9ZQ/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScZpZUwiVDpW6rPrNIxmSDv2_IV8pDRyo_EdRKg3zxHLtcGNQ/viewform?usp=sf_link"
             >
-              Register Now
+              Pre-Register Now
             </Button>
           </Box>
         </Flex>
@@ -198,16 +158,15 @@ const Index = props => (
     <footer sx={{ textAlign: 'center', padding: 4 }}>
       <Text as="p" mb={2} sx={{ fontSize: 1 }}>
         Previous years:{' '}
-        <Link href="https://2021.hillshacks.com/" ml={2}>
-          2021
-        </Link>{' '}
-        | <Link href="https://2020.hillshacks.com/">2020</Link> |{' '}
+        <Link href="https://2022.hillshacks.com/" ml={2}>2022</Link> |{' '}
+        <Link href="https://2021.hillshacks.com/">2021</Link> |{' '}
+        <Link href="https://2020.hillshacks.com/">2020</Link> |{' '}
         <Link href="https://2019.hillshacks.com/">2019</Link> |{' '}
-        <Link href="https://github.com/googol88/hillshacks-v">2018</Link>
+        <Link href="https://github.com/googol88/hillshacks-vi">2018</Link>
       </Text>
       <Text as="p" mb={2} sx={{ fontSize: 1 }}>
         Created with &#x3C;3 by the Watchung Hills CS Club. See the{' '}
-        <Link href="https://github.com/googol88/hillshacks-v">source</Link>.
+        <Link href="https://github.com/googol88/hillshacks-vi">source</Link>.
       </Text>
       <Text as="p" sx={{ fontSize: 1, color: 'muted' }}>
         © Copyright 2022 hillsHacks

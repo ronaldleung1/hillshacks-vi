@@ -1,6 +1,5 @@
 import { Flex, Box, Image, Container, NavLink } from 'theme-ui';
 import ColorSwitcher from '../components/color-switcher';
-// import NavDropdown from '../components/nav-dropdown';
 
 const Nav = props => {
   return (
@@ -25,8 +24,8 @@ const Nav = props => {
             <Image src="/icon.svg" width="36"/>
           </NavLink>
           <Box sx={{flex: '1 1 auto', justifyContent: "", margin: '3'}}>
-            <NavLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeEqpDhRwbn8WD1EXS8bAplyi_nqHJ0NdwdCSXQEPzcR5UYvQ/viewform?usp=sf_link" p={2}>
-              Register
+            <NavLink target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScZpZUwiVDpW6rPrNIxmSDv2_IV8pDRyo_EdRKg3zxHLtcGNQ/viewform?usp=sf_link" p={2}>
+              Pre-Register
             </NavLink>
             <NavLink href="#about" p={2}>
               About

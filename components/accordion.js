@@ -35,7 +35,7 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            hillsHacks is returning as a fully in-person event at{' '}
+            hillsHacks will be a fully in-person event at{' '}
             <Link href="https://goo.gl/maps/se4i7cSCAxGcRvYHA" target="_blank">
               Watchung Hills Regional High School
             </Link>
@@ -48,7 +48,7 @@ const Faq = () => {
           <AccordionItemButton>When will hillsHacks be?</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
-          <p>The event will take place on May 14th, 2022 from 11 AM to 4 PM.</p>
+          <p>The event will take place on March 18th, 2022 from 10:30 AM to 4 PM.</p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
@@ -57,7 +57,7 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            The entry fee for hillsHacks is <b>$10</b>. Payments are made through check - more details are in the registration form.
+            The entry fee for hillsHacks is <b>$10</b>. Payment methods are to be determined.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
@@ -119,11 +119,7 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Full registrations are now open! Go fill out{' '}
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSegUrlZpgpFQKBUR2205PvMVdK48YQtGJ9tdkPqO2N6Avs9ZQ/viewform?usp=sf_link">
-              this form
-            </Link>{' '}
-            and make sure to pay the registration fee.
+            Full registrations will be announced in the coming weeks. Make sure to pre-register first so we can notify you once it is available!
           </p>
         </AccordionItemPanel>
       </AccordionItem>
