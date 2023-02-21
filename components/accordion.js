@@ -123,6 +123,16 @@ const Faq = () => {
           </p>
         </AccordionItemPanel>
       </AccordionItem>
+        <AccordionItem>
+          <AccordionItemHeading>
+            <AccordionItemButton>Will there be food?</AccordionItemButton>
+          </AccordionItemHeading>
+          <AccordionItemPanel>
+            <p>
+              Yes, food is covered by the $15 entry fee! 
+            </p>
+          </AccordionItemPanel>
+        </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
           <AccordionItemButton>I have another question...</AccordionItemButton>
