@@ -96,7 +96,7 @@ const Index = props => (
         <Heading variant="headline" sx={{fontSize: "40px"}}>Details</Heading>
         <Text as="p"><b>Where:</b> <Link href="https://goo.gl/maps/se4i7cSCAxGcRvYHA" target="_blank">Watchung Hills Regional High School</Link> (108 Stirling Rd, Warren, NJ 07059)</Text><br/>
         <Text as="p"><b>When:</b> March 18th, 2023 from 11:00AM-4:30PM</Text><br/>
-        <Text as="p"><b>Cost:</b> There will be an entry fee of $10 to cover costs for food and T-shirts for all attendees!</Text><br/>
+        <Text as="p"><b>Cost:</b> There will be an entry fee of $15 to cover costs for food and T-shirts for all attendees!</Text><br/>
         <Text as="p"><b>Who:</b> All students in grades 7-12 are welcome to attend, regardless of experience!</Text>
       </Card>
     </Container>
@@ -128,7 +128,7 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Sponsors
       </Heading>
-      <Text>Coming soon!</Text>
+      <Text>Interested in sponsoring? Send us an email at <Link href="mailto:sponsor@hillshacks.com">sponsor@hillshacks.com</Link></Text>
     </Container>
     <Container as="section" py={4} {...props}>
       <Card>
