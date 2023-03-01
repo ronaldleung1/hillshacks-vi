@@ -169,7 +169,7 @@ const Index = props => (
         <Link href="https://github.com/googol88/hillshacks-vi">source</Link>.
       </Text>
       <Text as="p" sx={{ fontSize: 1, color: 'muted' }}>
-        © Copyright 2022 hillsHacks
+        © Copyright 2023 hillsHacks
       </Text>
     </footer>
   </>

@@ -23,7 +23,7 @@ const Faq = () => {
             completely changed the way we live our lives. Regardless of your
             experience, you will learn something new at hillsHacks about how
             computer science is being used all around us - often in things we
-            take for granted! All students grade 6 and up are welcome.
+            take for granted! All students grade 7 and up are welcome.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
@@ -48,7 +48,7 @@ const Faq = () => {
           <AccordionItemButton>When will hillsHacks be?</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
-          <p>The event will take place on March 18th, 2022 from 10:30 AM to 4 PM.</p>
+          <p>The event will take place on March 18th, 2023 from 11:00 AM to 4:30 PM.</p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
@@ -57,7 +57,7 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            The entry fee for hillsHacks is <b>$10</b>. Payment methods are to be determined.
+            The entry fee for hillsHacks is <b>$15</b>. Payment methods are to be determined.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
