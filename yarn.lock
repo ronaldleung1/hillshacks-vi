@@ -594,9 +594,9 @@
   version "2.0.3"
   resolved "https://registry.npmjs.org/@types/unist/-/unist-2.0.3.tgz"
 
-"@vercel/analytics@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-0.1.10.tgz"
+"@vercel/analytics@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-0.1.11.tgz#727a0ac655a4a89104cdea3e6925476470299428"
 
 ansi-styles@^3.2.1:
   version "3.2.1"
