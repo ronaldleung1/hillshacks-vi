@@ -128,7 +128,19 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Sponsors
       </Heading>
-      <Text>Interested in sponsoring? Send us an email at <Link href="mailto:sponsor@hillshacks.com">sponsor@hillshacks.com</Link></Text>
+      <a href="https://www.codeninjas.com/nj-green-brook" target="_blank">
+        <Image 
+          src="/codeninjas.png"
+          sx={{
+            width: '100%',
+            maxWidth: '360px',
+            userDrag: 'none',
+            WebkitUserDrag: 'none',
+            cursor: 'pointer',
+            borderRadius: 'extra',
+          }}
+        />
+      </a>
     </Container>
     <Container as="section" py={4} {...props}>
       <Card>
