@@ -119,7 +119,7 @@ const Faq = () => {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Full registrations will be announced in the coming weeks. Make sure to pre-register first so we can notify you once it is available!
+            Full registrations are now open! Go fill out <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeLs1-A2f_6d08CxvqZW7-UA6S3K7tDtgCM1eEM7JpvMy-7Sw/viewform">this form</Link> and make sure to pay the registration fee.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
@@ -129,7 +129,7 @@ const Faq = () => {
           </AccordionItemHeading>
           <AccordionItemPanel>
             <p>
-              Yes, food is covered by the $15 entry fee! 
+              Yes, lunch is covered by the $15 entry fee! 
             </p>
           </AccordionItemPanel>
         </AccordionItem>

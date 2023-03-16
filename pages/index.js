@@ -13,6 +13,7 @@ import {
   Card,
   Flex,
   Link,
+  Alert,
   useColorMode
 } from 'theme-ui'
 
@@ -26,7 +27,13 @@ const Index = props => (
   <>
     <Nav />
     <Hero />
-    <Container as="section" mt={4} variant="copy" {...props}></Container>
+        <Container as="section" mt={4} variant="copy" {...props}>
+      <Alert p={3} sx={{display: "flex"}}>
+        <Text mr={3}>📢</Text>
+        <Text sx={{flexGrow: 1}}>Full registrations are now open using the link above! Spots are limited, so sign up now!</Text>
+      </Alert>
+    </Container>
+    <Container as="section" variant="copy" {...props}></Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{ fontSize: '40px' }}>
         This is not your typical hackathon.
@@ -159,9 +166,9 @@ const Index = props => (
               as="a"
               target="_blank"
               mr={4}
-              href="https://docs.google.com/forms/d/e/1FAIpQLScZpZUwiVDpW6rPrNIxmSDv2_IV8pDRyo_EdRKg3zxHLtcGNQ/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeLs1-A2f_6d08CxvqZW7-UA6S3K7tDtgCM1eEM7JpvMy-7Sw/viewform"
             >
-              Pre-Register Now
+              Register Now
             </Button>
           </Box>
         </Flex>
