@@ -13,8 +13,7 @@ import {
   Card,
   Flex,
   Link,
-  Alert,
-  useColorMode
+  Alert
 } from 'theme-ui'
 
 import React from 'react'
@@ -123,7 +122,16 @@ const Index = props => (
       <Heading variant="headline" mb={4}>
         Schedule
       </Heading>
-      <Text>Coming soon!</Text>
+      <Image 
+        src="/schedule.png"
+        sx={{
+          width: '100%',
+          maxWidth: '720px',
+          userDrag: 'none',
+          WebkitUserDrag: 'none',
+          boxShadow: 'elevated',
+        }}
+      />
     </Container>
     <Container
       id="Sponsors"
