@@ -26,13 +26,7 @@ const Index = props => (
   <>
     <Nav />
     <Hero />
-        <Container as="section" mt={4} variant="copy" {...props}>
-      <Alert p={3} sx={{display: "flex"}}>
-        <Text mr={3}>📢</Text>
-        <Text sx={{flexGrow: 1}}>Full registrations are now open using the link above! Spots are limited, so sign up now!</Text>
-      </Alert>
-    </Container>
-    <Container as="section" variant="copy" {...props}></Container>
+    <Container as="section" variant="copy" mt={4} {...props}></Container>
     <Container id="about" as="section" py={4} variant="copy" {...props}>
       <Heading variant="headline" sx={{ fontSize: '40px' }}>
         This is not your typical hackathon.
